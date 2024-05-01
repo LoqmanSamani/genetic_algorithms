@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bioinformatic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/biopy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/biostoch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cinnamaldehyde" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-cademy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deep-learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/genetic_algorithms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html-css" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/intro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machine-learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mapk-pathway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/master_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/protein-database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/protein-fold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/smartsolve" vcs="Git" />
+  </component>
+</project>
