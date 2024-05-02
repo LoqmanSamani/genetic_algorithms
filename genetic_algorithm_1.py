@@ -77,7 +77,7 @@ population_size = 100  # number of solutions
 genome_length = 20  # length of the individual solution
 mutation_rate = 0.01  # the probability of occurring a mutation
 crossover_rate = 0.6  # cross over rate
-generations = 200  # maximum number of generations
+generations = 200  # maximum number of generation
 
 
 def random_genome(length):
