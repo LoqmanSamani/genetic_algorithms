@@ -1,5 +1,8 @@
 import random
 
+# source: https://www.youtube.com/watch?v=zumC_C0C25c&list=WL&index=1
+
+
 """
 1. Population: The `Population` class represents a group of potential solutions (chromosomes) to a problem. 
    Each chromosome is a potential solution to the problem. The population size determines how many potential
