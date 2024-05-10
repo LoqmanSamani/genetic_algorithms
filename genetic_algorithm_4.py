@@ -68,9 +68,49 @@ class Schedule:
         self.class_num = 0
         self.is_fitness_changed = True
 
+    def get_classes(self):
+        self.is_fitness_changed = True
+        return self.classes
+
+    def get_num_conflicts(self):
+        return self.num_conflicts
+
+    def get_fitness(self):
+        if self.is_fitness_changed:
+            self.fitness = self.calculate_fitness()
+            self.is_fitness_changed = False
+        return self.fitness
+
+    def calculate_fitness(self):
+        self.num_conflicts = 0
+        classes = self.get_classes()
+        for i in range(0, len(classes)):
+            if (classes[i].get_room().get_seatting_capacity() < classes[i].get_courses().get_max_num_studentds()):
+                for j in range(0, len(classes)):
+                    if (j >= i):
+                        if (classes[i].get_meeting_times() == classes[j].get_meeting_times() and classes[i].get_id() != classes[j]):
+                            # TODO: till here
+                            pass
+
+
+
+
+
     def initialize(self):
-        # TODO: till here
-        pass
+
+        depts = self.data.get_depts()
+        for i in range(0, len(depts)):
+            courses = depts[i].get_courses()
+            for j in range(0, len(courses)):
+                new_class = Class(self.class_num, depts[i], courses[j])
+                self.class_num += 1
+                new_class.set_meeting_time(data.get_meeting_times()[random.randrange(0, len(data.get_meeting_times()))])
+                new_class.set_room(data.get_rooms()[random.randrange(0, len(data.get_rooms()))])
+                new_class.set_instructor(courses[j].get_instructors()[random.randrange(0, len(courses[j].get_instructors()))])
+                self.classes.append(new_class)
+        return self
+
+
 
 
 
