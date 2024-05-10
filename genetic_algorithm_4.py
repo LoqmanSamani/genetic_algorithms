@@ -1,6 +1,9 @@
 import random
 
 
+# source:  https://www.youtube.com/watch?v=8NrNX_jCkjw&list=PLSM8fkP9ppPruxyt1r1nWJxaxWUX3yabg&index=2
+
+
 class Data:
     ROOMS = [["R1", 25], ["R2", 45], ["R3", 35]]
     MEETING_TIMES = [
