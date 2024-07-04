@@ -370,15 +370,16 @@ def genetic_algorithm(population_size, mutation_rate, crossover_rate, num_crosso
 
 
 pop, elite_chr, bf = genetic_algorithm(
-    population_size=300,
-    mutation_rate=0.01,
+    population_size=400,
+    mutation_rate=0.02,
     crossover_rate=0.85,
     num_crossover_points=2,
-    target=np.array([1, 3, 1, 6, 9, 1]),
+    target=np.array([1, 3, 1, 6, 9, 1, 2]),
     precision_bits=(0, 10, 8),
     max_generation=10000,
 )
-
+ind = [i for i in range(0, len(bf), 50)]
+bf1 = [bf[i] for i in ind]
 import matplotlib.pyplot as plt
-plt.plot(bf)
+plt.plot(bf1)
 plt.show()
