@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/bioinformatic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/biopy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/biostoch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/certificates" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cinnamaldehyde" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code-cademy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/deep-learning" vcs="Git" />
