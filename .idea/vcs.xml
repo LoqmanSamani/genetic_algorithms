@@ -20,5 +20,7 @@
     <mapping directory="$PROJECT_DIR$/protein-fold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rproject" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/smartsolve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/t" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/t/tech-bio" vcs="Git" />
   </component>
 </project>
